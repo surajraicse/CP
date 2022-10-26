@@ -13,3 +13,6 @@ Graph
 8.  Topological Sort (BFS)
 9.  Graph Coloring | Bipartite Graph (DFS)
 10. Graph Coloring | Bipartite Graph (BFS)
+11. Kruskal's Algorithm for Minimum Spanning Tree
+12. Prims's Algorithm for Minimum Spanning Tree
+13. Dijkstra's Algorithm for Single Source Shortest Path
