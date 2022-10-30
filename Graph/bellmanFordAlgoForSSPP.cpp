@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//cnode, cedge, u, v , wt, isNegCycle
-//list vector<pair<int,int>>[]
-// wt vector<int>
+// Bellman Ford Algorithm for Single Source Shortest Path
+
 struct node{
     int u;
     int v;

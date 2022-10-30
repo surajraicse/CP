@@ -11,7 +11,8 @@ int dfs(int node, vector<int> &vis, vector<int> &track, vector<vector<int>> &lis
         {
             vis[adj]=1;
             track[adj]=1;
-            return dfs(adj,vis,track,list);
+            if(dfs(adj,vis,track,list))
+                return 1;
         }
         else if(track[node])
             return 1;

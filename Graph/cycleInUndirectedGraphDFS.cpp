@@ -10,7 +10,8 @@ int dfs(int node, int par, vector<int> &vis, vector<vector<int>> &list)
     {
         if(!vis[adj])
         {
-            return dfs(adj,node,vis,list);
+            if(dfs(adj,node,vis,list))
+                return 1;
         }
         else if( adj != par)
             return 1;

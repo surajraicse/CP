@@ -10,7 +10,8 @@ int dfs(int node, vector<int> &col, vector<vector<int>> &list)
         if(col[adj]==-1)
         {
             col[adj]=1-col[node];
-            return dfs(adj, col, list);
+            if(dfs(adj, col, list))
+                return 1;
         }
         else if(col[adj]==col[node])
             return 1;
